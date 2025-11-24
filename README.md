@@ -1,4 +1,4 @@
-# Secure AI on MNIST – Adversarial & Poisoning Experiments (Tasks 5, 6, 7)
+# Secure AI on MNIST – Adversarial & Poisoning Experiments
 
 This project implements the **Secure AI MNIST** assignment focusing on:
 
@@ -138,37 +138,32 @@ Structure (example):
     "loss": 0.0234,
     "accuracy": 0.9923,
     "inference_time_s": 0.45,
-    "inference_time_per_sample_ms": 0.045,
-    "confusion_matrix": [[...], [...], ...]
+    "inference_time_per_sample_ms": 0.045
   },
   "triggered_test_method1": {
     "loss": ...,
     "accuracy": ...,
     "inference_time_s": ...,
-    "inference_time_per_sample_ms": ...,
-    "confusion_matrix": [[...], ...]
+    "inference_time_per_sample_ms": ...
   },
   "fgsm_test_method2": {
     "loss": ...,
     "accuracy": ...,
     "inference_time_s": ...,
-    "inference_time_per_sample_ms": ...,
-    "confusion_matrix": [[...], ...]
+    "inference_time_per_sample_ms": ...
   },
   "defense_fgsm": {
     "clean_test": {
       "loss": ...,
       "accuracy": ...,
       "inference_time_s": ...,
-      "inference_time_per_sample_ms": ...,
-      "confusion_matrix": [[...], ...]
+      "inference_time_per_sample_ms": ...
     },
     "fgsm_test": {
       "loss": ...,
       "accuracy": ...,
       "inference_time_s": ...,
-      "inference_time_per_sample_ms": ...,
-      "confusion_matrix": [[...], ...]
+      "inference_time_per_sample_ms": ...
     }
   }
 }
@@ -236,7 +231,7 @@ pip install tensorflow numpy matplotlib pandas scikit-learn adversarial-robustne
 
    ```python
    # ============================================================
-   # Secure AI MNIST – Tasks 5, 6, 7
+   # Secure AI MNIST
    # ...
    ```
 
@@ -310,7 +305,7 @@ These are **not implemented in code** here, but you can reference this repositor
 
 If you are reviewing this on GitHub, the key files to explore are:
 
-- Main notebook/script implementing tasks 5, 6, 7.
+- Main notebook/script implementing tasks.
 - `secure_ai_outputs/images/` – all visual results.
 - `secure_ai_outputs/models/` – trained models.
 - `secure_ai_outputs/metrics_summary_tasks5_6_7.json` – final metric summary.
