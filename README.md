@@ -138,37 +138,32 @@ Structure (example):
     "loss": 0.0234,
     "accuracy": 0.9923,
     "inference_time_s": 0.45,
-    "inference_time_per_sample_ms": 0.045,
-    "confusion_matrix": [[...], [...], ...]
+    "inference_time_per_sample_ms": 0.045
   },
   "triggered_test_method1": {
     "loss": ...,
     "accuracy": ...,
     "inference_time_s": ...,
-    "inference_time_per_sample_ms": ...,
-    "confusion_matrix": [[...], ...]
+    "inference_time_per_sample_ms": ...
   },
   "fgsm_test_method2": {
     "loss": ...,
     "accuracy": ...,
     "inference_time_s": ...,
-    "inference_time_per_sample_ms": ...,
-    "confusion_matrix": [[...], ...]
+    "inference_time_per_sample_ms": ...
   },
   "defense_fgsm": {
     "clean_test": {
       "loss": ...,
       "accuracy": ...,
       "inference_time_s": ...,
-      "inference_time_per_sample_ms": ...,
-      "confusion_matrix": [[...], ...]
+      "inference_time_per_sample_ms": ...
     },
     "fgsm_test": {
       "loss": ...,
       "accuracy": ...,
       "inference_time_s": ...,
-      "inference_time_per_sample_ms": ...,
-      "confusion_matrix": [[...], ...]
+      "inference_time_per_sample_ms": ...
     }
   }
 }
