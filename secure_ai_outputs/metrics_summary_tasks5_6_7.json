@@ -1,0 +1,34 @@
+{
+  "clean_test": {
+    "loss": 0.0335761234164238,
+    "accuracy": 0.9879000186920166,
+    "inference_time_s": 1.4495115280151367,
+    "inference_time_per_sample_ms": 0.14495115280151366
+  },
+  "triggered_test_method1": {
+    "loss": 0.07981555908918381,
+    "accuracy": 0.9742000102996826,
+    "inference_time_s": 1.4183366298675537,
+    "inference_time_per_sample_ms": 0.14183366298675537
+  },
+  "fgsm_test_method2": {
+    "loss": 3.448099136352539,
+    "accuracy": 0.13539999723434448,
+    "inference_time_s": 1.3718445301055908,
+    "inference_time_per_sample_ms": 0.13718445301055907
+  },
+  "defense_fgsm": {
+    "clean_test": {
+      "loss": 0.03242556378245354,
+      "accuracy": 0.989300012588501,
+      "inference_time_s": 1.479858160018921,
+      "inference_time_per_sample_ms": 0.1479858160018921
+    },
+    "fgsm_test": {
+      "loss": 0.056073155254125595,
+      "accuracy": 0.9866999983787537,
+      "inference_time_s": 1.416059970855713,
+      "inference_time_per_sample_ms": 0.14160599708557128
+    }
+  }
+}
