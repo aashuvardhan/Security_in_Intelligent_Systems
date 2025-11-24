@@ -231,7 +231,7 @@ pip install tensorflow numpy matplotlib pandas scikit-learn adversarial-robustne
 
    ```python
    # ============================================================
-   # Secure AI MNIST – Tasks 5, 6, 7
+   # Secure AI MNIST
    # ...
    ```
 
