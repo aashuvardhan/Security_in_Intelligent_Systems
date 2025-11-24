@@ -1,4 +1,4 @@
-# Secure AI on MNIST – Adversarial & Poisoning Experiments (Tasks 5, 6, 7)
+# Secure AI on MNIST – Adversarial & Poisoning Experiments
 
 This project implements the **Secure AI MNIST** assignment focusing on:
 
