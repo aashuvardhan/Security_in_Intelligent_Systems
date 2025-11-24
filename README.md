@@ -305,7 +305,7 @@ These are **not implemented in code** here, but you can reference this repositor
 
 If you are reviewing this on GitHub, the key files to explore are:
 
-- Main notebook/script implementing tasks 5, 6, 7.
+- Main notebook/script implementing tasks.
 - `secure_ai_outputs/images/` – all visual results.
 - `secure_ai_outputs/models/` – trained models.
 - `secure_ai_outputs/metrics_summary_tasks5_6_7.json` – final metric summary.
